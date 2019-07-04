@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/developer",
+            "outputPath": "dist/ng-demo",
             "index": "src/index.html",
             "redirects": "src/_redirects",
             "main": "src/main.ts",
