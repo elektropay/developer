@@ -13,8 +13,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ng-demo",
+            "outputPath": "dist/developer",
             "index": "src/index.html",
+            "redirects": "src/_redirects",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
@@ -71,6 +72,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
+            "redirects": "src/_redirects",
             "styles": [
               "styles.css"
             ],
